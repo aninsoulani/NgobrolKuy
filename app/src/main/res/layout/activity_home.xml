@@ -67,7 +67,8 @@
                     android:id="@+id/foto"
                     android:layout_width="150px"
                     android:layout_height="150px"
-                    android:src="@drawable/man"/>
+                    android:src="@drawable/man"
+                    tools:ignore="DuplicateIds" />
                 <TextView
                     android:id="@+id/judul"
                     android:layout_width="wrap_content"
@@ -533,7 +534,8 @@
             android:text="Andi"
             android:textSize="12pt"
             android:textColor="@color/white"
-            android:layout_toRightOf="@id/foto"/>
+            android:layout_toRightOf="@id/foto"
+            tools:ignore="DuplicateIds" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
